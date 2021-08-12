@@ -22,5 +22,12 @@ export class NovaTransferenciaComponent {
     //emitindo um evento para propagar algo -> propavando um
     const valorEmitir = {valor: this.valor, destino: this.destino};
     this.aoTransferir.emit(valorEmitir);
+    this.limparCampos();
+  }
+
+
+  limparCampos() {
+    this.valor = 0;
+    this.destino = 0;
   }
 }

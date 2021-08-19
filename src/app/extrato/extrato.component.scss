@@ -1,4 +1,4 @@
-.titulo{
+.titulo {
   text-align: center;
   font-size: 24px;
   margin-bottom: 16px;
@@ -19,7 +19,7 @@
     }
   }
 
-  &__linha{
+  &__linha {
     margin-bottom: 10px;
     border-radius: 4px;
 
@@ -32,8 +32,6 @@
 
   &__conteudo {
     padding: 10px;
-    border-bottom: 1px solid var(--primary);
+    border-bottom: 1px solid var(--cinza-claro);
   }
 }
-
-
